@@ -1,19 +1,16 @@
 package Module4.figureSquare;
 
-/**
- * Created by vberezovskii on 02.06.2016.
- */
-public class Circle {
+public class Circle extends Figure {
     private double radius;
     private double Square;
-    Circle(double radius){
-         Square = Math.PI*radius*radius;
 
- }
-    public double getSquare(){
+    //public void Circle(){
 
-        return Square;
+// }
+    public double getCircleSquare(double radius){
+       // radius = 2;
+        Square = Math.PI*radius*radius; //вычисляем площадь
+        return Square; //возвращаем площадь
     }
-
 
 }
