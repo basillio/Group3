@@ -1,7 +1,10 @@
 package Module4.figureSquare;
 
-/**
- * Created by vberezovskii on 02.06.2016.
- */
-public class Rectangle {
+public class Rectangle extends Figure {
+
+
+    public double getRectangleSquare(double a, double b){
+        double square = a*b;
+        return square; //возвращаем площадь
+    }
 }

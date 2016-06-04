@@ -1,7 +1,14 @@
 package Module3.music;
 
-/**
- * Created by vberezovskii on 01.06.2016.
- */
+
 public class Instrument {
+    String type;
+    String name;
+    double preice;
+    int quantity;
+
+    public void play(){
+        System.out.println("Music play");
+
+    }
 }

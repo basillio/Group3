@@ -2,9 +2,15 @@ package Module3.fileDoc;
 
 import java.util.List;
 
-/**
- * Created by vberezovskii on 01.06.2016.
- */
-public class Directory {
+
+public class Directory  {
     List<File> files;
+    public void hide() {
+        System.out.println("hidden files");
+    }
+    public boolean protectFiles() {
+        return true;
+    }
+
 }
+

@@ -7,5 +7,8 @@ import java.util.List;
  */
 public class Bouquet {
     List<Flower> bouquet;
+    int nubmberOfFlowers;
+    String flowerName;
+    double price;
 
 }

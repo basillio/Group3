@@ -7,4 +7,10 @@ import java.util.List;
  */
 public class Store {
     List<Instrument> instruments;
+    String address;
+    String paymentOrder;
+
+    public boolean sellInstrument() {
+        return true;
+    }
 }

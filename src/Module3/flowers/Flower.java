@@ -6,6 +6,14 @@ import java.util.List;
  * Created by vberezovskii on 01.06.2016.
  */
 public class Flower {
-    List<Bouquet> flowers;
+        List<Bouquet> flowers;
+    String name;
+    String colour;
+    String size;
+    String smell;
+
+    public boolean grow(){
+        return false;
+    }
 
 }
