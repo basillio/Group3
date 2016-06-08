@@ -6,6 +6,18 @@ public class Triangle extends Figure {
     private double b = 4;
     private double c = 5;
 
+    public void setB(double b) {
+        this.b = b;
+    }
+
+    public void setC(double c) {
+        this.c = c;
+    }
+
+    public void setA(double a) {
+
+        this.a = a;
+    }
 
     public double getSquare(){
        double p = (a+b+c)/2;

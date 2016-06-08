@@ -5,16 +5,6 @@ package Module4.figureSquare;
  */
 abstract class Figure {
 
-    public static void main (String[] args){
-        Triangle triangleSquare = new Triangle();
-        Circle circleSquare = new Circle();
-
-
-
-    }
-    public double getSquare (){
-        //Пустой метод вычисления площади.
-        return getSquare();
-    }
+    abstract double getSquare ();
 
 }
