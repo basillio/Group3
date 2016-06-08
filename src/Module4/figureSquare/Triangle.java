@@ -21,7 +21,7 @@ public class Triangle extends Figure {
 
     public double getSquare(){
        double p = (a+b+c)/2;
-       double Maths.sqrt(p*(p-a)*(p-b)*(p-c));
+       return Math.sqrt(p*(p-a)*(p-b)*(p-c));
 
     }
 
