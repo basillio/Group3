@@ -2,9 +2,9 @@ package Module4.figureSquare;
 import java.lang.Math;
 
 public class Triangle extends Figure {
-    private double a = 3;
-    private double b = 4;
-    private double c = 5;
+    private double a;
+    private double b;
+    private double c;
 
     public void setB(double b) {
         this.b = b;
@@ -21,8 +21,8 @@ public class Triangle extends Figure {
 
     public double getSquare(){
        double p = (a+b+c)/2;
-       double S = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-        return S;
+       double Maths.sqrt(p*(p-a)*(p-b)*(p-c));
+
     }
 
 

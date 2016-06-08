@@ -1,8 +1,8 @@
 package Module4.figureSquare;
 
 public class Rectangle extends Figure {
-    private double a = 12.3;
-    private double b = 22.9;
+    private double a;
+    private double b;
 
     public void setA(double a) {
         this.a = a;
@@ -14,7 +14,7 @@ public class Rectangle extends Figure {
 
     @Override
     public double getSquare(){
-        double square = a*b;
-        return square; //возвращаем площадь
+        return a*b;
+
     }
 }
