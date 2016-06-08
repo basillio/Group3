@@ -7,6 +7,11 @@ public class Instrument {
     double preice;
     int quantity;
 
+
+    Instrument guitar = new Guitar();
+    Instrument piano = new Piano();
+    Instrument trumpet = new Trumpet();
+
     public void play(){
         System.out.println("Music play");
 
