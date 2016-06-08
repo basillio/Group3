@@ -5,4 +5,9 @@ package Module3.music;
  */
 public class Guitar extends Instrument {
     int numberOfStrings;
+    @Override
+    public void play()
+    {
+        System.out.println("Music play on Guitar");
+    }
 }

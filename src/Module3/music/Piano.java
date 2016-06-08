@@ -5,4 +5,9 @@ package Module3.music;
  */
 public class Piano extends Instrument{
     int numberOfKeys;
+    @Override
+    public void play()
+    {
+        System.out.println("Music play on Piano");
+    }
 }

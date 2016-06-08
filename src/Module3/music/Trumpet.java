@@ -5,4 +5,9 @@ package Module3.music;
  */
 public class Trumpet extends Instrument{
     String size;
+    @Override
+    public void play()
+    {
+        System.out.println("Music play on Trumpet");
+    }
 }
