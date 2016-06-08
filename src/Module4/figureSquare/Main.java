@@ -7,8 +7,8 @@ public class Main {
         Rectangle rectangle = new Rectangle();
 
 
-        System.out.println("Triangle" + triangle.getTirangleSquare(3,4,5));
-        System.out.println("Circle Square = " + circle.getCircleSquare(5));
-        System.out.println("Rectangle" + rectangle.getRectangleSquare(4,5));
+        System.out.println("Triangle" + triangle.getSquare());
+        System.out.println("Circle Square = " + circle.getSquare());
+        System.out.println("Rectangle" + rectangle.getSquare());
     }
 }

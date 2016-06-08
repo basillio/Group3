@@ -1,11 +1,16 @@
 package Module4.figureSquare;
 
+public class Circle extends Figure {
+    private double radius = 5;
+    private double Square;
 
-class Circle extends Figure {
+    //public void Circle(){
 
-    public double getCircleSquare(double radius){
-        double square = Math.PI * radius * radius;
-        return square; //возвращаем площадь
+// }
+    @Override
+    public double getSquare(){
+        Square = Math.PI*radius*radius; //вычисляем площадь
+        return Square; //возвращаем площадь
     }
 
 }
