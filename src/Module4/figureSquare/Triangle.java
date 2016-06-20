@@ -19,7 +19,7 @@ public class Triangle extends Figure {
     public void setB(double b) {
         this.b = b;
         try {
-            if (a<0)
+            if (b<0)
                 throw new NegativeLengthException(b);
         } catch (NegativeLengthException e) {
             System.out.println("[Error]: Side of triangle '" + e.getLength() + "' should be non-negative!");
@@ -29,7 +29,7 @@ public class Triangle extends Figure {
     public void setC(double c) {
         this.c = c;
         try {
-            if (a<0)
+            if (c<0)
                 throw new NegativeLengthException(c);
         } catch (NegativeLengthException e) {
             System.out.println("[Error]: Side of triangle '" + e.getLength() + "' should be non-negative!");
@@ -46,10 +46,12 @@ public class Triangle extends Figure {
             double p = (a + b + c) / 2;
             s =Math.sqrt(p * (p - a) * (p - b) * (p - c));
         }
-        else try {
-            throw new SquareException("[Error]:Square could not be count! One of parametrs is negative");
-        } catch (SquareException e) {
-            e.printStackTrace();
+        else {
+            try {
+                throw new SquareException();
+            } catch (SquareException e) {
+                System.out.println("[Error]:Square could not be count! One of parametrs is negative");
+            }
         }
         return s;
     }

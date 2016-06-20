@@ -6,7 +6,7 @@ package Module4.figureSquare;
 public class SquareException extends Exception {
     private String[]args;
 
-    public SquareException (String args){
+    public SquareException (){
 
     }
 

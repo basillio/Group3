@@ -6,7 +6,7 @@ public class Main {
         Triangle triangle = new Triangle();
         Rectangle rectangle = new Rectangle();
 
-        circle.setRadius(5);
+        circle.setRadius(-5);
 
 
         triangle.setA(-3);
@@ -15,10 +15,10 @@ public class Main {
 
 
         rectangle.setA(-3.45);
-        rectangle.setB(-0.22);
+        rectangle.setB(0.22);
 
-        System.out.println("Triangle" + triangle.getSquare());
         System.out.println("Circle Square = " + circle.getSquare());
+        System.out.println("Triangle" + triangle.getSquare());
         System.out.println("Rectangle" + rectangle.getSquare());
     }
 }
