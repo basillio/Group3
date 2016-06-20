@@ -24,6 +24,15 @@ public class Distance extends Points {
 
     @Override
         public double getDistance() {
-        return Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+        double d = 0;
+        if (
+                double x1 = Double.parseDouble(Main.userInput))
+                )
+        d = Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+
+
+
+        return d;
     }
+
 }
