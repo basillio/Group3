@@ -8,12 +8,14 @@ public class Main {
 
         circle.setRadius(5);
 
-        triangle.setA(3);
-        triangle.setB(4);
-        triangle.setC(5);
 
-        rectangle.setA(3.45);
-        rectangle.setB(0.22);
+        triangle.setA(-3);
+        triangle.setB(3);
+        triangle.setC(-3);
+
+
+        rectangle.setA(-3.45);
+        rectangle.setB(-0.22);
 
         System.out.println("Triangle" + triangle.getSquare());
         System.out.println("Circle Square = " + circle.getSquare());

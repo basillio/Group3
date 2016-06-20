@@ -5,6 +5,6 @@ package Module4.figureSquare;
  */
 abstract class Figure {
 
-    abstract double getSquare ();
+    abstract double getSquare () throws SquareException;
 
 }
