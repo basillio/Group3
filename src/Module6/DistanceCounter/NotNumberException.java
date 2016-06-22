@@ -1,4 +1,4 @@
-package Module4.DistanceCounter;
+package Module6.DistanceCounter;
 
 /**
  * Created by vberezovskii on 20.06.2016.

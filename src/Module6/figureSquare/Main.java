@@ -1,4 +1,4 @@
-package Module4.figureSquare;
+package Module6.figureSquare;
 
 public class Main {
     public static void main (String[] args) {

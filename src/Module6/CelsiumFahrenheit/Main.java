@@ -1,4 +1,4 @@
-package Module4.CelsiumFahrenheit;
+package Module6.CelsiumFahrenheit;
 
 /**
  * Created by vberezovskii on 20.06.2016.

@@ -1,4 +1,4 @@
-package Module4.figureSquare;
+package Module6.figureSquare;
 import java.lang.Math;
 
 public class Circle extends Figure {
