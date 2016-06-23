@@ -26,7 +26,7 @@ public class Distance extends Points {
         public double getDistance() {
         double d = 0;
         if (
-                double x1 = Double.parseDouble(Main.userInput))
+                double x1 = Double.parseDouble(InputScanner.)
                 )
         d = Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 

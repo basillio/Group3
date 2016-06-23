@@ -6,7 +6,7 @@ package Module4.DistanceCounter;
 public class NotNumberException extends Exception {
     private double coordinateValue;
 
-    public double NotNumberException(){
+    public double notNumberException(){
         return coordinateValue;
 
     }

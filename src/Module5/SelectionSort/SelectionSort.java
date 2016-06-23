@@ -13,8 +13,10 @@ public class SelectionSort {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = rand.nextInt(50);
 
-            System.out.println(arr [i] + " ");
+            System.out.print(arr [i] + " ");
+
         }
+        System.out.println(" ");
         System.out.println("Sorted array: ");
             for (int i = 0; i < arr.length; i++) {
 
@@ -35,7 +37,7 @@ public class SelectionSort {
                 arr[min_i] = tmp;
             }
 
-                System.out.println(arr [i] + " ");
+                System.out.print(arr [i] + " ");
 
         }
 
