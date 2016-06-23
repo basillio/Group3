@@ -1,4 +1,4 @@
-package Module4.DistanceCounter;
+package Module6.DistanceCounter;
 
 import java.util.Scanner;
 

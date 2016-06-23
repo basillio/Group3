@@ -1,6 +1,4 @@
-package Module4.DistanceCounter;
-
-import java.util.Scanner;
+package Module6.DistanceCounter;
 
 /**
  * Created by vberezovskii on 20.06.2016.

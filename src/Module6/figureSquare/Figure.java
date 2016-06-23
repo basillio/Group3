@@ -1,4 +1,4 @@
-package Module4.figureSquare;
+package Module6.figureSquare;
 
 /**
  * Created by vberezovskii on 02.06.2016.
